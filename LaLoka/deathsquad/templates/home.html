@@ -1,0 +1,15 @@
+{% extends 'layouts/main.html' %}
+
+{% block content %}
+
+
+{% for p in posts %}
+    
+
+    <h2> {{p.title}} </h2>
+    <p> {{p.text}} </p>
+
+
+{% endfor %}
+
+{% endblock %}
