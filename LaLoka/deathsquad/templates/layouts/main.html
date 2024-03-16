@@ -1,10 +1,15 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="es">
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Death Squad</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -19,6 +24,54 @@
 
         <main>
             <p>contenido:</p>
+=======
+    <link rel="stylesheet" href="{% static 'styles/styles2.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!--- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">DeathSquad</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="squadNavItem" aria-current="page" href="/home">Inicio <i class="bi bi-house"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="squadNavItem" aria-current="page" href="/novedades">Novedades <i class="bi bi-newspaper"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="squadNavItem" aria-current="page" href="/reglamento">Reglamento <i class="bi bi-megaphone"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="squadNavItem" aria-current="page" href="/contacto">Contacto <i class="bi bi-arrows-angle-contract"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="squadNavItem" aria-current="page" href="/create">Nuevo Post <i class="bi bi-plus-circle"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--- ending navbar -->
+
+
+    <div class="container">
+        <header>
+
+        </header>
+
+        <main>
+>>>>>>> master
 
             {% block content %}
 
@@ -27,6 +80,7 @@
         </main>
 
         <footer>
+<<<<<<< HEAD
         <p>footer</p>
         </footer>
     </div>
@@ -34,3 +88,49 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
+=======
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4>Contacto</h4>
+                            <p>Correo electrónico: info@example.com</p>
+                            <p>Teléfono: +1234567890</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Enlaces</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Acerca de nosotros</a></li>
+                                <li><a href="#">Servicios</a></li>
+                                <li><a href="#">Contacto</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Síguenos</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#"> <i class="bi bi-facebook"></i> Facebook </a></li>
+                                <li><a href="#"> <i class="bi bi-twitter-x"></i> Twitter </a></li>
+                                <li><a href="#"> <i class="bi bi-instagram"></i> Instagram </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <hr>
+                            <p>&copy; 2024 Death Squad - Airsoft team.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+>>>>>>> master
