@@ -1,0 +1,19 @@
+/* colores a usar:
+
+
+#C01514 ROJO
+#686868 GRIS OSCURO
+#231E1E NEGRO
+#EAE7DE GRIS CLARO
+#8C5C5C MARRÓN ROJIZO
+
+*/
+@font-face {
+    font-family: 'typewriter';
+    src: url('../fonts/veteran_typewriter.ttf') format('truetype');
+}
+
+.clase_prueba {
+    color: #C01514;
+    font-family: 'typewriter', sans-serif; /* Aquí debes especificar el nombre de la fuente que has definido */
+}
