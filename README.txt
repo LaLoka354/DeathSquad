@@ -35,6 +35,14 @@ NavBar y Footer
     Luana y Braian
 
 
+DONDE ESTÁ CADA COSA:
+    En la carpeta "ARCHIVOS DEATH SQUAD" están las carpetas 
+    
+        "archivos static" 
+            donde van a estar todos los archivos tipo css, js, imágenes y fuentes.
+        "templates"
+            donde van a estar todos los archivos html
+
 
 
 
