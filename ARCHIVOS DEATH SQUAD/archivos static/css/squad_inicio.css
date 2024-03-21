@@ -8,6 +8,18 @@
 #8C5C5C MARRÓN ROJIZO
 
 */
+<<<<<<< HEAD
 .clase_prueba {
     color: #C01514;
 }
+=======
+@font-face {
+    font-family: 'typewriter';
+    src: url('../fonts/veteran_typewriter.ttf') format('truetype');
+}
+
+.clase_prueba {
+    color: #C01514;
+    font-family: 'typewriter', sans-serif; /* Aquí debes especificar el nombre de la fuente que has definido */
+}
+>>>>>>> master
