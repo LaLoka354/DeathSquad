@@ -1,8 +1,4 @@
 from django.shortcuts import render
-<<<<<<< HEAD
-from django.http import HttpResponse
-=======
->>>>>>> master
 from .models import Post
 # Create your views here.
 
@@ -10,12 +6,8 @@ def home(request):
     posts = Post.objects.all()
     return render(request, 'home.html', { 'posts': posts })
 
-<<<<<<< HEAD
-def ejemplo(request):
-    return HttpResponse('<p>ejemplo</p>')
-=======
 def novedades(request):
-    posts = Post.objects.order_by('-created')[:5]
+    posts = Post.objects.all()
     return render(request, 'novedades.html', { 'posts': posts })
 
 def reglamento(request):
@@ -35,4 +27,3 @@ def create_post(request):
         )
 
     return render(request, 'create_post.html')
->>>>>>> master

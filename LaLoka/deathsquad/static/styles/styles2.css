@@ -1,4 +1,13 @@
+/* colores a usar:
 
+
+#C01514 ROJO
+#686868 GRIS OSCURO
+#231E1E NEGRO
+#8C5C5C MARRÓN ROJIZO
+#f8f9fa BLANCO (FONDOS) en realidad es como medio gris xd
+
+*/
 @font-face {
   font-family: 'typewriter';
   src: url('../fonts/veteran_typewriter.ttf') format('truetype');
@@ -71,4 +80,13 @@
   padding: 10px; /* Espacio interno del div */
   margin-bottom: 4px;
   box-sizing: border-box; /* Incluye el borde en el cálculo del tamaño total del div */
+}
+
+.footer_squad {
+  background-color: #f8f9fa;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: #686868;
 }
