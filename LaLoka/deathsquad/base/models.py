@@ -10,6 +10,7 @@ class Post(models.Model):
     Fecha_evento = models.DateTimeField(null=True)
     Fecha_publicacion = models.DateTimeField(null=True)
     paga = models.BooleanField(default=True)
+    rental = models.BooleanField(default=True)
     recomendaciones = models.TextField(null=True)
     updated = models.DateTimeField(auto_now=True)
     created = models.DateTimeField(auto_now_add=True)
