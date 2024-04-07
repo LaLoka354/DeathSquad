@@ -23,7 +23,10 @@ def create_post(request):
         Post.objects.create(
             title = request.POST.get('title'),
             Descripcion = request.POST.get('Descripcion'),
-            Fecha_evento = request.POST.get('Fecha_evento')
+            Fecha_evento = request.POST.get('Fecha_evento'),
+            lugar = request.POST.get('lugar'),
+            organiza = request.POST.get('organiza'),
+            especificaciones = request.POST.get('especificaciones')
         )
 
     return render(request, 'create_post.html')

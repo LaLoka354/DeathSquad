@@ -4,18 +4,18 @@
 
 <div class="title"> NOVEDADES </div>
 
-{% for p in posts|slice:"0:-5" %}
+{% for p in posts|slice:"0:5" %}
 
 <div class="marco">
     <p class="">Publicado en: {{ p.created|date:"d/m/y" }}</p>
     <h2 class=""> {{p.title}} </h2>
-    <p> {{p.text}} </p>
     <p> {{p.Descripcion}} </p>
     <br>
     <h3> RECOMENDACIONES </h3>
     <p> {{p.recomendaciones}}</p>
     <p class="">FECHA DEL EVENTO: {{p.Fecha_evento|date:"d/m/y"}}</p>
-    <p> {{p.paga}} </p>
+    <p> especificaciones: <br>
+        {{p.especificaciones}} </p>
     <img>
     <a class="squadNavItem" aria-current="page" href="/contacto">Contacto</a>
     <br>
