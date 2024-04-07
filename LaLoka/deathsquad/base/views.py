@@ -29,4 +29,4 @@ def create_post(request):
             especificaciones = request.POST.get('especificaciones')
         )
 
-    return render(request, 'create_post.html')
+

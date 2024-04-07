@@ -2,6 +2,50 @@
 
 {% block content %}
 
+<h1> login </h1>
+
+<form method="POST" action="">
+    {% csrf_token %}
+<div class="mb-3">
+    <label class="form-label">Titulo</label>
+    
+    <input type="text" name="title" class="form-control" placeholder="título">
+</div>
+<br>
+<div class="mb-3">
+    <label class="form-label">Descripción</label>
+    <textarea type="text" name='Descripcion' class="form-control"></textarea>
+</div>
+<br>
+<div class="mb-3">
+    <label class="form-label">Lugar</label>
+    <textarea type="text" name='Descripcion' class="form-control"></textarea>
+</div>
+<br>
+<div class="mb-3">
+    <label class="form-label">Organiza</label>
+    <textarea type="text" name='Descripcion' class="form-control"></textarea>
+</div>
+<br>
+<div class="mb-3">
+    <label class="form-label">especificaciones</label>
+    <textarea type="text" name='especificaciones' class="form-control"></textarea>
+</div>
+<br>
+
+<div class="form-group">
+    <label for="fecha">Fecha del evento</label>
+   <br>
+   <br>
+    <input type="date" class="form-control" name="Fecha_evento">
+</div>
+<br>
+
+<button class="btn btn-primary" type="submit">publicar</buttton>
+    <br>
+</form>
+
+
 
 
 {% endblock %}
